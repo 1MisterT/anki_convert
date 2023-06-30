@@ -1,0 +1,17 @@
+FROM python:3.11.3-alpine
+WORKDIR /code
+
+RUN apk --update --upgrade add --no-cache  gcc musl-dev jpeg-dev zlib-dev libffi-dev cairo-dev pango-dev gdk-pixbuf-dev
+
+RUN python -m pip install --upgrade pip
+COPY requirements.txt requirements.txt
+RUN pip install -r requirements.txt
+
+
+#set Enviroment Variables used in FLASK
+ENV FLASK_APP=app
+ENV FLASK_RUN_HOST=0.0.0.0
+ENV FLASK_RUN_PORT=8080
+EXPOSE 8080
+
+CMD [ "flask", "run" ]

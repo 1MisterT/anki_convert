@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Upload Text</title>
+    <link rel="stylesheet" href='/static/style.css' />
+  </head>
+  <body>
+    <main>
+    <div id="left">
+    <h1>File Upload Example</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+      <label class="custom-file-upload">
+        <input id="myfile" type="file" name="file" accept=".pdf"/>
+        <span>Custom Upload</span>
+    </label>
+      <button type="submit">Upload</button>
+      <br>
+      <textarea name="text">{% if text %}{{ text }}{% else %}Text in here{% endif %}</textarea>
+    </form>
+  </div>
+  {% if text %}
+  <div id="right">
+    <h1>Converted Text</h1>
+      <button id="copy-btn">Copy Text</button>
+      <pre id="myInput">{{ text }}
+      </pre>
+    </div>
+    {% endif %}
+</main>
+<script src="{{url_for('static', filename='script.js')}}"></script>
+  </body>
+</html>

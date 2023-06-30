@@ -1,0 +1,37 @@
+Vestibulospinale Reflexe
+• Aufteilung:
+   ◦statische Reflexe
+      ‣ Def: {{c1:: durch bestimmte Körperhaltung ausgelöst, für Aufrechterhaltung des Gleichgewichts in Stand und Gang, Unterteilt in Steh- und Stellreflexe}}
+   ◦statokinetische Reflexe
+      ‣ Def: {{c2:: ausgelöst durch Bewegeung, Für Gleichgewicht beim Laufen, Springen}}
+Vestibulookulärer Reflex -> siehe Hirnstammreflexe
+• Def: {{c3:: Augenbewegung gegen Kopfbewegung zur Fixierung des Gegenstands bej Kopfbewegung}}
+• Funktion: {{c4:: Blickstabilisierung, Fixierung Bild auf Netzhaut}}
+
+
+Nystagmus:
+• pathologische Arten: {{c5:: Spontannystagmus}}
+   ◦Unterteilung
+      ‣ Ausfallnystagmus
+         • Def: {{c6:: Zerstören der Vestibularbahn}}
+         • Richtung: {{c7:: von kranker Seite weg}}
+      ‣ Reiznystagmus
+         • Def: {{c8:: Reizung des Vestibularapparats}}
+         • Richtung: {{c9:: zu kranker Seite hin}}
+• physiologische Arten
+   ◦vestibulärer Nystagmus
+      ‣ rotatorischef Nystagmus
+         • Ursache: {{c10:: Fixierung eines Punkts bei Rotation des Probanden}}
+         • Richtung: {{c11:: in Rotationsrichtung}}
+      ‣ postrotatorischer Nystagmus
+         • Ursache: {{c12:: Stopp einer Rotation}}
+         • Richtung: {{c13:: gegen Rotation}}
+      ‣ kalorischer Nystagmus
+         • Auslösung: {{c14:: Spülung des Gehörgangs mit kaltem oder warmem Wasser}}
+         • Vorgang: {{c15:: Reizung Bogengang durch Spülung, Bewgeung Endolymphe durch Temperatur}}
+         • Richtung: {{c16:: Warmspülung zeigt der Nystagmus zum gespülten Ohr hin, bei Kaltspülung vom gespülten Ohr weg}}
+   ◦optokinetischer Nystagmus = Eisenbahnnystagmus
+      ‣ Vorgang:
+         • Augen fixieren Punkt, versuchen diesen so lange wie möglich im Blickfeld zu behalten -> Augenauslenkbewegung
+         • Rückstellbewegung falls Bulbus maximal ausgelenkt
+      ‣ Richtung: {{c17:: gegen Bewegung der Umwelt}}
