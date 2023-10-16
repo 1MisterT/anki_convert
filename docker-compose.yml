@@ -1,0 +1,9 @@
+version: '3.0'
+services:
+  web:
+    build: .
+    image: anki_convert
+    container_name: anki_convert
+    restart: unless-stopped
+    ports: 
+      - 8080:5000

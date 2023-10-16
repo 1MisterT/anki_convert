@@ -1,0 +1,112 @@
+:root{
+    --green:#4CAF50;
+    --primary:#3b3b3b;
+}
+
+*{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: var(--primary);
+}
+
+main{
+    display: grid;
+    width: 90vw;
+    margin: 5vw;
+    flex-wrap: wrap;
+    grid-template-areas: "head-input head-output"
+                         "input output";
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+h1.input{
+    grid-area: head-input;
+}
+
+h1.output{
+    grid-area: head-output;
+}
+
+h1{
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: .5rem;
+}
+
+textarea{
+    grid-area: input;
+}
+
+pre{
+    grid-area: output;
+}
+
+
+main > div{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea{
+    width: 100%;
+    height: 20vh;
+    margin: 20px 0;
+        -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload, button {
+    background-color: white;
+    color: var(--primary);
+    border: 2px solid var(--green); /* Green */
+    /* background-color: lightgray; */
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: .2rem;
+    transition-duration: 0.4s;
+}
+
+.custom-file-upload:hover, button:hover {
+    background-color: var(--green); /* Green */
+    color: white;
+  }
+
+.custom-file-upload span, button span {
+    vertical-align: bottom;
+}
+
+.material-symbols-outlined {
+    padding-right: 0.3rem;
+}
+
+textarea, pre{
+    background-color: white;
+    color: var(--primary);
+    border: 2px solid var(--green); /* Green */
+    border-radius: .2rem;
+    margin: .5rem 0;
+    min-height: 10rem;
+    padding: .2rem;
+}
+
+@media (max-width: 600px) {
+    main{
+        width: 100wv;
+    }
+
+    main > div{
+        width: 100%;
+    }
+}
