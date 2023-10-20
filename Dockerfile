@@ -1,5 +1,4 @@
-FROM alpine:3.18.4
-RUN apk add --no-cache python3 py3-pip
+FROM python:3.9
 COPY requirements.txt /home
 RUN pip install -r /home/requirements.txt
 COPY src webserver
